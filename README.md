@@ -9,10 +9,14 @@ Lade quickmap herunter und entpacke es.
 
 Nutze deine Einstellungen aus deiner Robust.ini.
 
-Trage sie ein unter:
+Trage deine Datenbank ein unter:
+
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   Anfang der Einstellungen
+
 //Datenbank Einstellungen - IP oder localhost, Benutzername, Passwort, Datenbankname
+
 $link = new mysqli("localhost", "Benutzername", "Passwort", "Datenbankname");
+
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   Ende der Einstellungen
 
 Lade nun diese Quickmap Ordner in deinen Webserver.
